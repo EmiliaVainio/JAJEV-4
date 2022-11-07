@@ -30,7 +30,8 @@ div.form {
 }
 div.links {
 position: relative;
-text-align: center;
+height: 200px;
+margin-bottom: 100px;
 color: black;
 font-family: Convergence;
 }
