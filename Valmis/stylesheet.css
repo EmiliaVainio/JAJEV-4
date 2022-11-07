@@ -28,11 +28,12 @@ div.form {
 	margin-top: -80px;
 }
 div.links {
+position: relative;
 color: black;
 font-family: Convergence;
 }
 div.body {
-	position: static;
+	position: absolute;
 	margin-top: 5px;
 	border: double 5px #E0E4CC;
 	background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
