@@ -1,0 +1,169 @@
+<DOCTYPE! html>
+<html lang="fi" xml:lang="fi" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Tietoturvakäsikirja</title>
+<link rel="stylesheet" href="C:\Users\anast\OneDrive\Työpöytä\tietojenkäsittely\Verkkosivuston kehitys projekti\tietoturvakäsikirja\stylesheet.css">
+</head>
+<body>
+<div style class="header"><h1>Tietoturvakäsikirja</h1>
+</div>
+<div style class="body">
+<div style class="links"><ul>
+<a href="file:///C:/Users/anast/OneDrive/Ty%C3%B6p%C3%B6yt%C3%A4/tietojenk%C3%A4sittely/Verkkosivuston%20kehitys%20projekti/tietoturvak%C3%A4sikirja/yhteystiedot%202%20versio.html"><li style="display:inline">Yhteystiedot</li></a>
+<a href="#Kappale1"><li style="display:inline">1 kappale</li></a>
+<a href="#Kappale2"><li style="display:inline">2 kappale</li></a>
+<a href="#Kappale3"><li style="display:inline">3 kappale</li></a>
+<a href="#Kappale4"><li style="display:inline">4 kappale</li></a>
+<a href="#Kappale5"><li style="display:inline">5 kappale</li></a>
+<a href="#Kappale6"><li style="display:inline">6 kappale</li></a>
+<a href="#Kappale7"><li style="display:inline">7 kappale</li></a>
+<a href="#Kappale8"><li style="display:inline">8 kappale</li></a>
+</ul>
+</div>
+<div style class="form">
+<form id="form"> 
+<input type="search" id="query" name="q" placeholder="Search..."><button>Search</button></form>
+</div>
+<div style class="text">
+<h2 id="Kappale1">Kappale 1</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale2">Kappale 2</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale3">Kappale 3</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale4">Kappale 4</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale5">Kappale 5</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale6">Kappale 6</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale7">Kappale 7</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<h2 id="Kappale8">Kappale 8</h2>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+<p>Tekst</p>
+</div>
+<div style class="footer">
+<p>&copy; JAJEV-4. Kaikki oikeudet pidetään.</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+Style sheet
+
+div.header {
+position: static;
+width: 1500px;
+height: 70px;
+font-size: 20px;
+text-align: center;
+font-family: Convergence;
+text-shadow: 2px 2px #69D2E7;
+background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
+border: #E0E4CC double 5px;
+display: table-cell;
+vertical-align: middle;
+}
+a {
+float: left;
+margin-left: 30px;
+margin-top:20px;
+color: black;
+font-size: 30px;
+font-weight: bold;
+text-decoration: underline;
+}
+p {
+	font-family: Open Sans;
+}
+h2 {
+font-family: Convergence;
+}
+div.form {
+	float: right;
+	margin-top: -80px;
+}
+div.links {
+position: relative;
+text-align: center;
+font-size: 25px;
+color: black;
+font-family: Convergence;
+}
+div.body {
+	position: static;
+	margin-top: 5px;
+	border: double 5px #E0E4CC;
+	background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
+}
+div.text {
+	position: relative;
+	margin-top: 90px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	margin-bottom: 100px;
+	border: #E0E4CC double 5px;
+	border-radius: 20px;
+}
+div.footer {
+height: 70px;
+background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
+border: double 5px #E0E4CC;
+}
+
+

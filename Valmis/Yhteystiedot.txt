@@ -1,0 +1,111 @@
+<DOCTYPE! html>
+<html>
+<head>
+<style>
+#header {
+width: 1500px;
+height: 70px;
+font-size: 25px;
+text-align: center;
+font-family: Convergence;
+text-shadow: 2px 2px #69D2E7;
+background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
+border: #E0E4CC double 5px;
+display: table-cell;
+vertical-align: middle;
+}
+#container {
+height: 500px;
+margin-top: 5px;
+margin-bottom: 5px;
+background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
+border: double #A7DBD8;
+}
+#block1 {
+width: 400px;
+height: 200px;
+float: left;
+border: double #A7DBD8 5px;
+margin-left: 300px;
+margin-top: 30px;
+margin-bottom: 30px;
+background-color: white;
+border-radius: 20px;
+}
+#block2 {
+width: 400px;
+height: 200px;
+float: right;
+border: double #A7DBD8 5px;
+margin-top: 30px;
+margin-right: 300px;
+margin-bottom: 30px;
+background-color: white;
+border-radius: 20px;
+}
+#block3 {
+width: 400px;
+height: 200px;
+clear: left;
+overflow: auto;
+margin-left: 550px;
+margin-right: 550px;
+background-color: white;
+border: double #A7DBD8 5px;
+border-radius: 20px;
+}
+#footer {
+height: 70px;
+background-color: #A7DBD8;
+border: double 5px #E0E4CC;
+}
+img {
+float: right;
+margin-right: 10px;
+margin-top: -5px;
+border: double #A7DBD8 5px;
+border-radius: 50%;
+}
+p {
+font-family: Open Sans;
+font-size: 15px;
+font-family: Open Sans;
+margin-left: 15px;
+margin-top: 32px;
+}
+a {
+float: left;
+margin-left: 30px;
+margin-top:20px;
+color: black;
+font-size: 30px;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<a href="file:///C:/Users/anast/OneDrive/Ty%C3%B6p%C3%B6yt%C3%A4/tietojenk%C3%A4sittely/Verkkosivuston%20kehitys%20projekti/tietoturvak%C3%A4sikirja/index1.html">Etusivu</a><h1>Yhteystiedot</h1>
+</div>
+<div id="container">
+<div id="block1">
+<p><img src="mypic.jpg" alt="myphoto" width="130" height="130">Anastasiia Kalliomäki</p>
+<p>anastasiiakalliomaki@student.lab.fi</p>
+<p>puh.: 0449862481</p>
+</div>
+<div id="block2">
+<p><img src="IMG-20221106-WA0000.jpg" alt="myphoto" width="130" height="140">Emilia Vainio</p>
+<p>emilia.vainio@student.lab.fi</p>
+<p>puh.: 0443233233</p>
+</div>
+<div id="block3">
+<p><img src="" alt="myphoto" width="130" height="130">Jaakko Litmanen</p>
+<p>jaakko.litmanen@student.lab.fi</p>
+<p>puh.: 0401480402</p>
+</div>
+</div>
+<div id="footer">
+<p>&copy; JAJEV-4. Kaikki oikeudet pidätetään.</p>
+</div>
+</body>
+</html>
