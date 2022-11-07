@@ -31,6 +31,7 @@ div.links {
 position: relative;
 color: black;
 font-family: Convergence;
+z-index: 1;
 }
 div.body {
 	position: absolute;
