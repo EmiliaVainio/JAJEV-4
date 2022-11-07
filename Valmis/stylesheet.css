@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open Sans&display=swap');
+
 div.header {
 position: static;
-width: 1550px;
-height: 70px;
+padding-top: 25px;
+padding-bottom: 5px;
+width: 1500px;
+height: 60px;
 font-size: 20px;
 text-align: center;
 font-family: Convergence;
@@ -9,13 +14,11 @@ text-shadow: 2px 2px #69D2E7;
 background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
 border: #E0E4CC double 5px;
 display: table-cell;
-vertical-align: middle;
 }
 a {
-float: left;
 margin-left: 30px;
 color: black;
-font-size: 10px;
+font-size: 12px;
 font-weight: bold;
 text-decoration: underline;
 }
@@ -23,10 +26,7 @@ h2 {
 font-family: Convergence;
 text-align: center;
 }
-div.form {
-	float: right;
-	margin-top: -80px;
-}
+
 div.links {
 position: relative;
 color: black;
@@ -36,6 +36,7 @@ z-index: 1;
 div.body {
 	position: absolute;
 	margin-top: 5px;
+	margin-right: 10px;
 	border: double 5px #E0E4CC;
 	background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
 }
@@ -49,9 +50,12 @@ div.text {
 	border: #E0E4CC double 5px;
 	border-radius: 20px;
 	font-family: Open Sans;
+	padding: 40px;
 }
 div.footer {
-height: 70px;
+height: 50px;
 background-image: linear-gradient(to bottom right, #69D2E7, #A7DBD8, #E0E4CC, white);
 border: double 5px #E0E4CC;
+font-family: Open Sans;
+padding: 20px;
 }
