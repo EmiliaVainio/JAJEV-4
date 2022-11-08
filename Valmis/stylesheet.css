@@ -21,7 +21,30 @@ color: black;
 font-size: 13px;
 font-weight: bold;
 text-decoration: underline;
-line-height; 200%;
+}
+a: link {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a: visited {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a: hover {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a: active {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
 }
 h2 {
 font-family: Convergence;
